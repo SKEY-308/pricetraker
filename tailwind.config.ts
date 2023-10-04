@@ -57,6 +57,7 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         spaceGrotesk: ["Space Grotesk", "sans-serif"],
+        quicksand: ["Quicksand", "sans-serif"],
       },
       borderRadius: {
         10: "10px",
