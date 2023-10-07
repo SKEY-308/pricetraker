@@ -7,7 +7,8 @@ const Home = () => {
         <>
             <section className="px-6 md:px-20 py-24 ">
 
-                <div className="flex max-xl: flex-col gap-16">
+                {/* Tu fais une column si l'ecran est inf ou égale à 1280px */}
+                <div className="flex max-xl:flex-col gap-16">
 
                     <div className="flex flex-col justify-center">
 
