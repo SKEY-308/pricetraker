@@ -22,6 +22,10 @@ const Home = () => {
                             Unleash the Power of <span className="text-primary">PriceWise</span>
                         </h1>
 
+                        <p className="mt-6">
+                            Powerful, self-serve product and growth analytics to help you convert, engage, and retain more.
+                        </p>
+
 
                     </div>
 
