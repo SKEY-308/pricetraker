@@ -161,6 +161,11 @@ body {
     @apply flex-1 relative flex flex-col gap-5 p-4 rounded-md;
   }
 
+  .too {
+    --tw-text-opacity: 1;
+    color: #d80032;
+  }
+
   .product-card_img {
     @apply max-h-[250px] object-contain w-full h-full bg-transparent;
   }
