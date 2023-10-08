@@ -8,10 +8,9 @@ const isValidAmazonProductURL = (url: string) => {
         const parsedURL = new URL(url);
         const hostname = parsedURL.hostname;
 
+        // Check if hostname contains amazon.com or amazon.ca
         if (
-            hostname.includes('amazon.com') ||
-            hostname.includes('amazon.') ||
-            hostname.endsWith('amazon')
+            hostname.includes('amazon.com') || hostname.includes('amazon.') || hostname.endsWith('amazon')
         ) {
             return true;
         }
